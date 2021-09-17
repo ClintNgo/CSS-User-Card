@@ -1,0 +1,81 @@
+*{
+    color: black;
+    font-family: cursive;
+}
+
+.card{
+    border: grey;
+    align-items: center;
+    justify-content: center;
+    flex: auto;
+    display: flex;
+} 
+
+.nametag{
+    background-color: rgb(255, 255, 255);
+    height: 275px;
+    width: 600px;
+    border: 2px solid rgb(177, 177, 177);
+}
+
+.content{
+    height: 75px;
+    width: 600px;
+    background-color: #17a2b8;
+    border: 2px solid rgb(177, 177, 177);
+    margin-left: -2px;
+}
+
+.icon{
+    width: 75px;
+    height: 75px;
+    position: relative;
+    top: 35px;
+    left: 30px;
+    border: 2px solid gray;
+    border-radius: 50%;
+    filter: invert(1);
+}
+.marker{
+    width: 12px;
+    position: relative;
+    top: 75px;
+    left: 25px;
+
+}
+.gear{
+    width: 15px;
+    position: relative;
+    top: 130px;
+    left: 25px;
+}
+
+p{
+    flex-wrap: wrap;
+    width: 290px;
+    height:40px;
+    position: relative;
+    top: 40px;
+    left: 20px;
+}
+.name{
+    font-size: 20pt;
+    position: relative;
+    top: -100px;
+}
+
+.location {
+    font-size: 17px;
+    position: relative;
+    margin-left: 30px;
+    top:-126px
+}
+
+.edit {
+    font-size: 13px;
+    position: relative;
+    margin-left: 30px;
+    top:-100px;
+    color: rgb(57, 121, 238);
+    text-decoration: underline;
+}
